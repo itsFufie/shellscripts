@@ -3,18 +3,23 @@
 <details>
 <summary>speak.sh</summary>
 
-### Dependencies
+### Description 📌
+    
+    Very simple script that allows me to have any input string be read out loud by a TTS
 
-- dmenu
-- piper-tts
-- some voice model
+### Dependencies 📦
 
-### Usage
+- `dmenu`
+- `piper-tts`
+- [some voice model](https://rhasspy.github.io/piper-samples/demo.html)
 
-You just need to invoke the script using whatever method you want and passin in as an argument the path to your `*.onnx` file. 
-  The way I do it is having a keybind set up, in my case it's `$mod+s` that invokes the script which is probably the most practical way.
+### Usage ▶️
 
-### Example
+You just need to invoke the script using whatever method you want and passing in as an argument the path to your `*.onnx` file. 
+
+The way I do it is having a key bind set up, in my case it's `$mod+s`
+
+### Example 🔍
 
   `./speak.sh $HOME/voices/libritts-high.onnx`
 </details>
