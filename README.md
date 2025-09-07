@@ -5,7 +5,7 @@
 
 ### Description 📌
     
-    Very simple script that allows me to have any input string be read out loud by a TTS
+Very simple script that allows me to have any input string be read out loud by a TTS
 
 ### Dependencies 📦
 
